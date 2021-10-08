@@ -1,7 +1,7 @@
 @ECHO OFF
 CLS
 ECHO ***
-ECHO Runs xsd.exe on all *.xsd files sorted by filename in the current folder.
+ECHO Runs xsd.exe on all *.xsd files
 ECHO ***
 
 FOR /R "C:\your\file" %%G IN (*.xsd) DO (
